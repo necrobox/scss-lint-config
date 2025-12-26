@@ -1,5 +1,16 @@
 # Changelog
 
+## 8.0.0 (26.12.2025)
+
+Fixed “DeprecationWarning: `context.fix` is being deprecated” by updating stylelint-codeguide@2 to @stylistic/stylelint-plugin@3.
+
+It means that:
+
+1. Config now requires Stylelint 16.8.0 and higher.
+2. If there are `codeguide/` rules in your project config that overrides rules from this one, rename them to `@stylistic/`.
+3. Do the same as (2) for disabled rules, if there are ones that prefixed with `codeguide/`.
+
+
 ## 7.1.1 (25.12.2025)
 
 Replaced @funboxteam/stylelint-rules with @necrobox/stylelint-rules in the list of plugins, which fixed the error
@@ -22,12 +33,15 @@ Moved package from @funboxteam to @necrobox scope.
 
 ## 6.1.0 (09.01.2024)
 
-Added `stylelint-codeguide` instead `stylelint-stylistic` for Stylelint v16 supporting.
+Replaced `stylelint-codeguide` with `stylelint-stylistic` to support Stylelint v16.
+
+It means that if you was overriding or disabling rules that were deprecated in Stylelint 15 [migration guide](https://stylelint.io/migration-guide/to-15),
+then now prefix them with `codeguide/`.
 
 
 ## 6.0.0 (08.12.2023)
 
-Migration to Stylelint 15
+Migration to Stylelint 15.
 
 There were no changes on the config itself, but here is the Stylelint
 [migration guide](https://stylelint.io/migration-guide/to-15)
