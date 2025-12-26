@@ -75,7 +75,8 @@
     "comment-whitespace-inside": "always",
     "declaration-block-no-duplicate-properties": true,
     "declaration-block-no-redundant-longhand-properties": [true, {
-      "ignoreShorthands": ["/font/", "/flex/"]
+      "ignoreShorthands": ["/font/", "/flex/"],
+      "ignoreLonghands": ["column-gap", "row-gap"]
     }],
     "declaration-block-no-shorthand-property-overrides": true,
     "declaration-no-important": true,
