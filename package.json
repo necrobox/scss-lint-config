@@ -1,6 +1,6 @@
 {
-  "name": "@funboxteam/scss-lint-config",
-  "version": "6.1.0",
+  "name": "@necrobox/scss-lint-config",
+  "version": "7.0.0",
   "description": "Config for Stylelint SCSS linting",
   "keywords": [
     "stylelint",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/funbox/scss-lint-config"
+    "url": "https://github.com/necrobox/scss-lint-config"
   },
   "files": [
     ".stylelintrc",
@@ -19,15 +19,12 @@
   ],
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
-  "scripts": {
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
-  },
   "main": "index.js",
   "dependencies": {
-    "@funboxteam/stylelint-rules": "^3.0.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.0.0",
-    "stylelint-codeguide": "^2.0.0"
+    "@funboxteam/stylelint-rules": "3.0.0",
+    "stylelint-order": "6.0.4",
+    "stylelint-scss": "6.13.0",
+    "stylelint-codeguide": "2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^16.0.2",

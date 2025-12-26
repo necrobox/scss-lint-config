@@ -1,6 +1,6 @@
-# @funboxteam/scss-lint-config
+# @necrobox/scss-lint-config
 
-[![npm](https://img.shields.io/npm/v/@funboxteam/scss-lint-config.svg)](https://www.npmjs.com/package/@funboxteam/scss-lint-config)
+[![npm](https://img.shields.io/npm/v/@necrobox/scss-lint-config.svg)](https://www.npmjs.com/package/@necrobox/scss-lint-config)
 
 Пакет с правилами для [Stylelint](https://stylelint.io), соответствующие принятому в компании стайлгайду для SCSS-файлов.
 
@@ -22,7 +22,7 @@ npm install --save-dev postcss-scss
 Затем можно устанавливать сам конфиг:
 
 ```bash
-npm install --save-dev @funboxteam/scss-lint-config
+npm install --save-dev @necrobox/scss-lint-config
 ```
 
 ## Использование
@@ -30,7 +30,7 @@ npm install --save-dev @funboxteam/scss-lint-config
 Подключить в конфиг рабочего проекта, передав необходимые [опции](https://stylelint.io/user-guide/cli/):
 
 ```bash
-stylelint "src/**/*.scss" --cache --config node_modules/@funboxteam/scss-lint-config/.stylelintrc
+stylelint "src/**/*.scss" --cache --config node_modules/@necrobox/scss-lint-config/.stylelintrc
 ```
 
 Для Stylelint v13 обязательно использовать опцию `--syntax scss`.
@@ -39,11 +39,9 @@ stylelint "src/**/*.scss" --cache --config node_modules/@funboxteam/scss-lint-co
 
 ```js
 module.exports = {
-  extends: '@funboxteam/scss-lint-config/.stylelintrc.json',
+  extends: '@necrobox/scss-lint-config/.stylelintrc.json',
   rules: [
     // доопределения правил
   ]
 };
 ```
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
