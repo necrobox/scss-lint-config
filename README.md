@@ -47,5 +47,3 @@ module.exports = {
   ]
 };
 ```
-
-[![Sponsored by FunBox](https://funbox.ru/badges/sponsored_by_funbox_centered.svg)](https://funbox.ru)
