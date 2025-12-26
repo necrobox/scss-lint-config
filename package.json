@@ -21,7 +21,7 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@funboxteam/stylelint-rules": "3.0.0",
+    "@necrobox/stylelint-rules": "4.0.0",
     "stylelint-order": "6.0.4",
     "stylelint-scss": "6.13.0",
     "stylelint-codeguide": "2.0.0"

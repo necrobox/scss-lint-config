@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+Replaced @funboxteam/stylelint-rules with @necrobox/stylelint-rules.
+
+
 ## 7.0.0 (26.12.2025)
 
 Moved package from @funboxteam to @necrobox scope.
