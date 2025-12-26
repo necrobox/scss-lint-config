@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.1 (25.12.2025)
+
+Replaced @funboxteam/stylelint-rules with @necrobox/stylelint-rules in the list of plugins, which fixed the error
+introduced in 7.1.0.
+
+
 ## 7.1.0 (26.12.2025)
 
 Replaced @funboxteam/stylelint-rules with @necrobox/stylelint-rules.
