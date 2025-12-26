@@ -27,7 +27,7 @@
     "stylelint-scss": "6.13.0"
   },
   "peerDependencies": {
-    "stylelint": "^16.0.2",
+    "stylelint": "^16.8.0",
     "postcss-scss": ">= 4.0.7"
   }
 }

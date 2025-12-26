@@ -8,17 +8,11 @@
 
 ## Installation
 
-First, install Stylelint that meets 
+First, install Stylelint and postcss-scss that meet
 the [peerDependencies requirements](./package.json):
 
 ```bash
-npm install --save-dev stylelint
-```
-
-If using Stylelint v14 or higher, also install postcss-scss:
-
-```bash
-npm install --save-dev postcss-scss
+npm install --save-dev stylelint postcss-scss
 ```
 
 Then install the config:
@@ -34,8 +28,6 @@ Include into a project config and pass desired [options](https://stylelint.io/us
 ```bash
 stylelint "src/**/*.scss" --cache --config node_modules/@necrobox/scss-lint-config/.stylelintrc
 ```
-
-For Stylelint v13 `--syntax scss` option is required.
 
 Also you can create your own config based on this one:
 
