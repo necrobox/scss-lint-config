@@ -1,5 +1,5 @@
 {
-  "name": "@funboxteam/scss-lint-config",
+  "name": "@necrobox/scss-lint-config",
   "version": "6.1.0",
   "description": "Config for Stylelint SCSS linting",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/funbox/scss-lint-config"
+    "url": "https://github.com/necrobox/scss-lint-config"
   },
   "files": [
     ".stylelintrc",
