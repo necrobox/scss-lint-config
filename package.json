@@ -19,9 +19,6 @@
   ],
   "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
   "license": "MIT",
-  "scripts": {
-    "prepublishOnly": "if [ -z \"$CI\" ]; then lawyer; fi"
-  },
   "main": "index.js",
   "dependencies": {
     "@funboxteam/stylelint-rules": "^3.0.0",
