@@ -6,17 +6,11 @@
 
 ## Установка
 
-Сперва необходимо установить версию Stylelint, удовлетворяющую требованиям, 
+Сперва необходимо установить версии Stylelint и postcss-scss, удовлетворяющие требованиям, 
 описанным в [peerDependencies](./package.json):
 
 ```bash
-npm install --save-dev stylelint
-```
-
-При использовании Stylelint v14 и выше необходимо также установить postcss-scss:
-
-```bash
-npm install --save-dev postcss-scss
+npm install --save-dev stylelint postcss-scss
 ```
 
 Затем можно устанавливать сам конфиг:
@@ -32,8 +26,6 @@ npm install --save-dev @necrobox/scss-lint-config
 ```bash
 stylelint "src/**/*.scss" --cache --config node_modules/@necrobox/scss-lint-config/.stylelintrc
 ```
-
-Для Stylelint v13 обязательно использовать опцию `--syntax scss`.
 
 Помимо этого можно описать локальный конфиг проекта, основанный на этом:
 
