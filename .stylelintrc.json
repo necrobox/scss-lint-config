@@ -4,7 +4,7 @@
     "stylelint-order",
     "stylelint-scss",
     "stylelint-codeguide",
-    "@funboxteam/stylelint-rules"
+    "@necrobox/stylelint-rules"
   ],
   "rules": {
     "codeguide/at-rule-name-case": "lower",
