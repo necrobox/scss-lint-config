@@ -1,8 +1,12 @@
 # Changelog
 
-## Unreleased
+## 7.1.0 (26.12.2025)
 
 Replaced @funboxteam/stylelint-rules with @necrobox/stylelint-rules.
+
+Added `column-gap` and `row-gap` to ignore list of `declaration-block-no-redundant-longhand-properties`.
+Now they are allowed to use instead of shorthand `gap`. It makes sense since `gap` is shared between Grid and Flexbox
+rules, which forces `gap` rule be above all the Flexbox rules due to order linting.
 
 
 ## 7.0.0 (26.12.2025)
@@ -11,7 +15,8 @@ Moved package from @funboxteam to @necrobox scope.
 
 
 ## 6.1.0 (09.01.2024)
-Added `stylelint-codeguide` instead `stylelint-stylistic` for Stylelint v16 supporting
+
+Added `stylelint-codeguide` instead `stylelint-stylistic` for Stylelint v16 supporting.
 
 
 ## 6.0.0 (08.12.2023)

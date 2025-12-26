@@ -1,6 +1,6 @@
 {
   "name": "@necrobox/scss-lint-config",
-  "version": "7.0.0",
+  "version": "7.1.0",
   "description": "Config for Stylelint SCSS linting",
   "keywords": [
     "stylelint",
