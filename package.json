@@ -21,10 +21,10 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "@funboxteam/stylelint-rules": "^3.0.0",
-    "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.0.0",
-    "stylelint-codeguide": "^2.0.0"
+    "@funboxteam/stylelint-rules": "3.0.0",
+    "stylelint-order": "6.0.4",
+    "stylelint-scss": "6.13.0",
+    "stylelint-codeguide": "2.0.0"
   },
   "peerDependencies": {
     "stylelint": "^16.0.2",
